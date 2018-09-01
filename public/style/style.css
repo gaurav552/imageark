@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: helvetica-thin;
+    src: url(Helvetica\ 35\ Thin.ttf);
+}
+
+@font-face{
+    font-family: helvetica-bold;
+    src: url(Helvetica\ 75\ Bold.ttf);
+}
+
+@font-face{
+    font-family: didot-italic;
+    src: url(Didot\ Italic.ttf)   
+}
+
+@font-face{
+    font-family: didot;
+    src: url(Didot.ttf)
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: helvetica-thin;
+}
+
+/*
+
+For Home Page
+
+*/
+
+.v-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contains{
+    max-width:960px;
+    padding:0 1rem;
+    margin:auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-content{
+    margin:auto;
+    z-index: 2;
+}
+
+@media screen and (max-width:600px){
+    .logoer{
+        height:30px;
+    }
+}
+
+@media screen and (min-width:600px){
+    .logoer{
+        height:50px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .fullscreen-video-wrap{
+        height: 100vh;
+    }
+    .changer{ overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .crash{
+        font-size: 60px;
+    }
+    .clamore{
+        font-size:10vw;
+    }
+
+    .entire{
+        margin-left: 0.25%;
+    }
+
+    .block{
+        width:49.75%;
+        margin-right: 0.25%;
+    }
+
+    .carousel{
+        height:40vw!important;
+    }
+
+    .bonanza{
+        margin: 80px 0 0 100px;
+    }
+
+    .bonanza1{
+        margin: 30px 0 0 100px;
+    }
+
+    .bonanza2{
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+
+    .contender{
+        margin-left: 0.25%;
+    }
+    .blocker{
+        margin-bottom: 0.25%;
+        margin-right: 0.25%;
+    }
+
+    .blocker-small{
+        height: 550px;
+        width: 49.75%;
+    }
+
+    .blocker-big{
+        height: 800px;
+        width: 99.5%;
+    }
+
+    .entire-d{
+        margin: .25%;
+    }
+
+    .logger{
+        width:40%;
+    }
+
+    .amonia{
+        min-height: 90vh;
+    }
+
+}
+
+@media screen and (max-width:992px){
+
+    .fullscreen-video-wrap{
+        height: 80vh;
+    }
+
+    .reaction{
+        margin-top:-110px;
+    }
+
+    .bonanza{
+        margin: 30px 80px;
+    }
+
+    .bonanza2{
+        margin-left: 80px;
+    }
+
+    .crash{
+        font-size: 40px;
+
+    }
+    .clamore{
+        font-size:50px;
+    }
+    .entire{
+        margin-left: 1%;
+    }
+
+    .block{
+        width:99%;
+        margin-right:0.5%;
+    }
+
+    .carousel{
+        height:350px!important;
+    }
+
+    .bonanza{
+        margin: 50px 0 0 20px;
+    }
+
+    .bonanza1{
+        margin: 30px 0 0 20px;
+    }
+
+    .bonanza2{
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .blocker{
+        width: 99%!important;
+        height: 400px;
+        margin-bottom: .8%;
+    }
+
+    .contender{
+        margin-left: 1%;
+    }
+
+    .entire-d{
+        margin: 1%;
+    }
+
+    .logger{
+        width:250px;
+    }
+
+    .amonia{
+        min-height: 60vh;
+    }
+
+    .country-list{
+        font-size:1.5rem;
+    }
+
+    .titel-list{
+       font-size:1.8rem;
+    }
+
+    .explain{
+        font-size:2rem;
+    }
+}
+
+.country-list{
+    font-family: helvetica-bold;
+}
+
+.explain{
+    font-family: didot;
+}
+
+.batta{
+position: absolute;
+top:30px;
+left:15px;
+}
+.bayan{
+    position: absolute;
+    top:60%;
+    left:15px;
+    width: 90%;
+}
+
+
+.abradolf{
+    visibility: hidden;
+}
+
+.linkler:hover .abradolf{
+    visibility: visible;
+}
+
+.block img{
+    width: 100%;
+}
+
+.blocker img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover
+}
+
+
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.batta-d{
+    position: absolute;
+}
+.bayan-d{
+    position: absolute;
+    width: 85%;
+}
+
+
